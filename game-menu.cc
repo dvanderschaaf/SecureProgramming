@@ -1,6 +1,6 @@
 #include <iostream>
 #include <limits>
-
+#include "functions.h"
 using namespace std;
 
 
@@ -36,6 +36,8 @@ int main()
         cout << "2 - Dungeon of the Unknown\n";
         cout << "3 - Tic-Tac-Toe\n";
         cout << "4 - Mind Reader\n";
+        cout << "5 - Word Sample\n";
+        cout << "6 - Zoo Sample\n";
         cout << endl << "Enter choice: ";
         cin >> choice;
 
@@ -46,6 +48,8 @@ int main()
             case 2: system("./unkown-dungeon.exe"); break;
             case 3: system("./tic-tac-toe.exe"); break;
             case 4: system("./mind-reader.exe"); break;
+            case 5: system("./word_sample.exe"); break;
+            case 6: system("./zoo_sample.exe"); break;
             default: cout << "That was not a valid choice.\n";
         }
     }
