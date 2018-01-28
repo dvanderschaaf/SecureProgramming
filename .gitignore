@@ -1,3 +1,6 @@
-*.a
+*.out
 *.o
 *.out
+*.exe
+dvanderschaaf-enc-key.pem
+dvanderschaaf-enc-key.pem

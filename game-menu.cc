@@ -3,14 +3,7 @@
 
 using namespace std;
 
-// Tell us something about yourself
-// Name /.-
-// General Location -
 
-// Set up your global variables here
-
-
-// Define your functions here
 
 void PressN2Continue()
   {
@@ -39,14 +32,20 @@ int main()
     {
         cout << "\nGAME MENU\n";
         cout << "0 - Exit the program.\n";
-        cout << "1 - Greetings\n";
+        cout << "1 - Game Lobby\n";
+        cout << "2 - Dungeon of the Unknown\n";
+        cout << "3 - Tic-Tac-Toe\n";
+        cout << "4 - Mind Reader\n";
         cout << endl << "Enter choice: ";
         cin >> choice;
 
         switch (choice)
         {
             case 0: cout << "Good-bye.\n"; break;
-            case 1: hello(); break;
+            case 1: system("./game_lobby.exe"); break;
+            case 2: system("./unkown-dungeon.exe"); break;
+            case 3: system("./tic-tac-toe.exe"); break;
+            case 4: system("./mind-reader.exe"); break;
             default: cout << "That was not a valid choice.\n";
         }
     }
