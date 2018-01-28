@@ -24,7 +24,6 @@ int main()
     {
         {"persistent", "Keep at it."}
     };
-
 	srand(static_cast<unsigned int>(time(0)));
 	int choice = (rand() % NUM_WORDS);
     string theWord = WORDS[choice][WORD];  // word to guess
