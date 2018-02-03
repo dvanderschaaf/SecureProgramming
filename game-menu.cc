@@ -59,3 +59,9 @@ int main()
 
     return 0;
 }
+
+    © 2018 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
