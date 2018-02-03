@@ -38,7 +38,7 @@ int main()
         cout << "4 - Mind Reader\n";
         cout << "5 - Word Sample\n";
         cout << "6 - Zoo Sample\n";
-
+        cout << "7 - Hang Man\n";
         cout << endl << "Enter choice: ";
         cin >> choice;
 
@@ -51,6 +51,7 @@ int main()
             case 4: system("./mind-reader.exe"); break;
             case 5: system("./word_sample.exe"); break;
             case 6: system("./zoo_sample.exe"); break;
+            case 7: system("./hang-man.exe"); break;
             default: cout << "That was not a valid choice.\n";
         }
     }
@@ -58,3 +59,9 @@ int main()
 
     return 0;
 }
+
+    © 2018 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
