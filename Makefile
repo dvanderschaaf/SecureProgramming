@@ -1,4 +1,4 @@
-all: game-menu unknown-dungeon tic-tac-tow mind-reader game_lobby word_sample zoo-sample
+all: game-menu unknown-dungeon tic-tac-tow mind-reader game_lobby word_sample zoo-sample hang-man
 
 %: %.cc
 	g++ -std=c++11 $< -o $@.exe
